@@ -16,18 +16,15 @@ div.desc {
   font-family: Roboto;
   font-size: 15px;
 }
- {
+{
   box-sizing: border-box;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+  display: table-cell;
+  padding: 40px;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+  display: table-row;
 }
